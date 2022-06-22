@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="stepDefinition.StepDefinition">
+        <methods>
+          <include name="initialize_the_browser_with_chrome"/>
+          <include name="user_enters_and_in_both_fields"/>
+          <include name="user_enters_and_in_both_fields_and_clicks_on_signin_button"/>
+          <include name="navigate_to_something_site"/>
+          <include name="clear_the_and_fields"/>
+        </methods>
+      </class> <!-- stepDefinition.StepDefinition -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
